@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "TART Active Antenna")
+    (date "2022-09-15")
+    (rev "0.1")
+    (company "The Transient Array Radio Telescope")
+    (comment 1 "Tim Molteno (tim@elec.ac.nz)")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_Coaxial" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0.254 3.048 0)
